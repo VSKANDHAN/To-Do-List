@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(to right,#ee7172,#6a73c0);
+    text-align: center;
+    color: white;
+   
+    
+}
+h1{
+    font-size: 50px;
+    font-family: 'Pacifico', cursive;
+
+}
+#inputSection{
+    background-color: rgba(0, 0, 0, 0.397);
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+#textin{
+    border-radius: 6px;
+    border-color: #ffffff00;
+    margin: 6px;
+    padding: 2px;
+}
+#addbtn{
+    border-radius: 6px;
+    border-color: #ffffff00;
+    margin: 6px;
+    padding: 6px;
+    background-color: rgb(226, 65, 97);
+    color: white;
+
+
+}
+#taskSection{
+
+    display: flex;
+    width: 80%;
+    margin: auto;
+    flex-direction: column;
+    margin-top: 20px;
+
+}
+.taskdiv{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.397);
+    width: 70%;
+    margin: auto;
+    margin-top: 10px;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+.taskdiv>p{
+    max-width: 60%;
+    word-wrap:break-word;
+    flex: 60%;
+    text-align: start;
+    padding: 6px;
+}
+#validation{
+    font-size:18px;
+}
+.editp{
+    max-width: 60%;
+    word-wrap:break-word;
+    flex: 60%;
+    text-align: start;
+    border-radius: 8px;
+    margin: 4px;
+    border: none;
+  
+    background-color: rgb(255, 255, 255);
+
+}
+.btns{
+    background-color: #ffffff00;
+    border:none;
+    color: #ee7172;
+    font-size: 16px;
+    padding: 6px;
+}
+@media(max-width:768px){
+    h1{
+        font-size: 40px;
+    }
+    #inputSection{
+        width: 80%;
+    }
+    .taskdiv{
+        width: 96%;
+    }
+    .editp{
+        border-radius: 4px;
+        padding: 6px;
+        margin: 6px;
+    }
+
+
+
+
+}
